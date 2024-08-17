@@ -23,8 +23,8 @@ function meuEscopo () {
 
         console.log(pessoas);
 
-        resultado.innerHTML += `<p>${nome.value} ${sobrenome.value}` + `${idade.value} ${altura.value}` + 
-        ` ${peso.value}</p>`
+        resultado.innerHTML += `<p> Seu nome é: ${nome.value} ${sobrenome.value}.` + ` Sua idade e altura: ${idade.value}` +
+        `, ${altura.value}. Seu peso: ${peso.value}</p>`
     };
 
     form.addEventListener('submit',recebeEventoForm);
